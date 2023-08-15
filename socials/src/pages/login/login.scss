@@ -1,0 +1,79 @@
+.login{
+height: 100vh;
+background-color: bisque;
+background-image: url("https://images.unsplash.com/photo-1501884428012-aa321a256730?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxMTIzNjQwfHxlbnwwfHx8fHw%3D&w=1000&q=80");
+background-size: 2000px 710px;
+display: flex;
+align-items: center;
+justify-content: center;
+    .card{
+        display: flex;
+        background-color: white;
+        width: 950px;
+        border-radius: 10px;
+        min-height: 600px;
+        opacity: 0.5;
+        .left{
+            flex: 1;
+            background-color: aqua;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            align-items: center;
+            font-size: 50px;
+            font-family: "Times New Roman", Times, serif;
+            h1{
+                font-size: 60px;
+                    
+                align-items: center;
+                font-family: Copperplate, Papyrus, fantasy;
+                color: #ee0e0e;
+                margin: 0;
+          
+
+            }
+            span{
+                font-size: 25px;
+            }
+            button{
+                width: 75px;
+                padding: 10px;
+                background-color: white;
+                font-weight: bold;
+                cursor: pointer;
+                border-radius: 5px;
+            }
+        }
+       .right{
+        flex: 1;
+        padding: 50px;
+        gap: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 30px;
+        font-family: "Times New Roman", Times, serif;
+        h1{
+            color: black;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            input{
+                padding: 10px 20px;
+            }
+            button{
+                width: 50%;
+                padding: 10px;
+                background-color: aqua;
+                cursor: pointer;
+            }
+           }
+       }
+       
+
+    }
+}
